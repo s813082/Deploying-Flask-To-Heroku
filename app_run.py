@@ -1,10 +1,7 @@
 from flask import *
 from datetime import datetime
 from dbModel import *
-import logging
 
-app.logger.addHandler(logging.StreamHandler(sys.stdout))
-app.logger.setLevel(logging.ERROR)
 
 app = Flask(__name__)
 
